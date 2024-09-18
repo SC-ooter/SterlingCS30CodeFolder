@@ -1,5 +1,11 @@
-// Yoohoo
 
+// Program name: (A4 ACSII ART)
+
+// Student name: (Sterling Cossar)
+
+// Date: (Tuesday September 17th 2024)
+
+// Program Description: This is a code that prints out various lines of text that makes the picture of a truck.
 
 public class App {
     public static void main(String[] args) throws Exception {
