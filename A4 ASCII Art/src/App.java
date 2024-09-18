@@ -3,7 +3,7 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("\n\n                        _________");
+        System.out.println("\n                        _________");
         System.out.println("                       |||      \\\\");
         System.out.println("     __________________|||_____[}\\\\____________");
         System.out.println("    |__                || -     \\ |           ,|#########");
