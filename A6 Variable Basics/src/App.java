@@ -6,13 +6,12 @@ public class App {
 
 // Date: (Thursday September 19th)
 
-// Program Description:
+// Program Description: A short few lines of code that will show you how many full chicken wings you are able to buy with $4.75, if each wing costs $0.75.
 
     public static void main(String[] args) throws Exception {
         double chicken = 0.75;
-        double total = (5.75/chicken);
-        System.out.println("If you have $4.75 you can buy " + (int) total + " Chicken wings");
-        System.out.println((total));
+        double total = (4.75/chicken);
+        System.out.println("If you have $4.75 you can buy " + (int) total + " chicken wings.");
 
     }
 }
