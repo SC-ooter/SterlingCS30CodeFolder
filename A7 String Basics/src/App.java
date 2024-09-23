@@ -1,5 +1,5 @@
 public class App {
-// Program name: (The name you gave the program)
+// Program name: (A7 String Basics)
 
 // Student name: (Your name)
 
@@ -13,13 +13,15 @@ public class App {
         String target1 = "very";
 
         String message2 = "That was great - lol";
-        String target2 = "lol";
-    
-        System.out.println(message1);
-        System.out.println(message2);
+        String target2 = "laugh out loud";
+
+        System.out.println(message1.indexOf(target1)+(message1));
         
-        System.out.println(message1.length("very"));
 
 
-    }
+    
+        System.out.println(message1.substring(indexOf(target1)) + message1.substring(9));
+        // System.out.println(message2.substring(0,17) + (target2));
+      
+ }
 }
