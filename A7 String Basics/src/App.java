@@ -5,7 +5,7 @@ public class App {
 
 // Date: (September 24th 2024)
 
-// Program Description: 
+// Program Description: This program uses the length of a word and substrings of the sentence so that you can exract the certain word from the sentence. Then on the second Message it replaces "lol" with "Laugh out loud".
     
     public static void main(String[] args) throws Exception {
         String message1 = "I am very happy!";
