@@ -17,7 +17,7 @@ public class App {
         //Message 1
         Integer message1pos1 = (message1.indexOf(target1));
         Integer message1pos2 = (target1.length());
-        System.out.println(message1.substring(0,message1pos1 - 1)+ message1.substring(message1pos1 + message1pos2));
+        System.out.println(message1.substring(0,message1pos1 - 1) + message1.substring(message1pos1 + message1pos2));
 
         //Message 2
         Integer message2pos1 = (message2.length());
