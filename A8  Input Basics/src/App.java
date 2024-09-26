@@ -1,8 +1,8 @@
-// Program name: (The name you gave the program)
+// Program name: (A8 Input Basics)
 
-// Student name: (Your name)
+// Student name: (Sterling Cossar)
 
-// Date: (The date you completed the program)
+// Date: (September 26th 2024)
 
 // Program Description:
 
@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class App {
 public static void main(String[] args) throws Exception {
   System.out.println("Hello, World!");
+  
   Scanner keyboard = new Scanner(System.in);
 
   int intOne, intTwo; 
@@ -28,15 +29,17 @@ public static void main(String[] args) throws Exception {
 
   System.out.println("intOne + intTwo = " + (intOne + intTwo));
 
+  // Doubles
+
   double doubleOne, doubleTwo; 
 
-  System.out.print("Enter a number :: ");
+  System.out.print("Enter a double :: ");
 
-  doubleOne = keyboard.nextInt();
+  doubleOne = keyboard.nextDouble();
 
-  System.out.print("Enter another number :: ");
+  System.out.print("Enter another double :: ");
 
-  doubleTwo = keyboard.nextInt();
+  doubleTwo = keyboard.nextDouble();
 
   System.out.println("Double one = " + (double) doubleOne);
 
@@ -44,10 +47,5 @@ public static void main(String[] args) throws Exception {
 
   System.out.println("doubleOne + doubleTwo = " + (double) (doubleOne + doubleTwo));
 
-
-
+ }
 }
-}
-
-// }
-// }
