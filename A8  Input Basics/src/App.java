@@ -4,7 +4,7 @@
 
 // Date: (September 26th 2024)
 
-// Program Description:
+// Program Description: Gets the user to input integers first then adds them together, displaying the numbers and the result. It then asks for two doubles and adds them together
 
 import java.util.Scanner;
 public class App {
@@ -21,7 +21,6 @@ public static void main(String[] args) throws Exception {
   System.out.println("integer one = " + intOne);
   System.out.println("integer two = " + intTwo);
   System.out.println("intOne + intTwo = " + (intOne + intTwo));
-
 
   // Doubles
 
