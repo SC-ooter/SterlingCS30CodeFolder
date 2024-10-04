@@ -10,13 +10,24 @@ import java.util.Scanner;
 public class BigorSmallRunner {
 
     public static void main(String[] args) throws Exception {
-        Scanner keyboard = new Scanner(System.in);
-        System.out.println("Hello, World!");
-        System.out.println("Allo Mate");
-        int intOne, intTwo;
-        System.out.print("Enter an integer :: ");
-        intOne = keyboard.nextInt();
-        System.out.print("Enter another integer :: ");
-        intTwo = keyboard.nextInt();
+    
+        System.out.println(inpt);
+        // int intOne, intTwo;
+        // System.out.print("Enter an integer :: ");
+        // intOne = keyboard.nextInt();
+        // System.out.print("Enter another integer :: ");
+        // intTwo = keyboard.nextInt();
+
+        // if (intOne > intTwo){
+        //     System.out.println("Yes " + intOne + " is greater than " + intTwo);
+        // }
+
+        // if (intOne < intTwo){
+        //     System.out.println("No " + intOne + " is not greater than " + intTwo);
+
+        // }
+       
+
     }
 }
+
