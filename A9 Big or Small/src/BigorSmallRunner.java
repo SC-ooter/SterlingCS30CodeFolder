@@ -1,4 +1,4 @@
-// Program name: (A( Big or Small))
+// Program name: (A9 Big or Small))
 
 // Student name: (Sterling Cossar)
 
@@ -16,5 +16,7 @@ public class BigorSmallRunner {
         int intOne, intTwo;
         System.out.print("Enter an integer :: ");
         intOne = keyboard.nextInt();
+        System.out.print("Enter another integer :: ");
+        intTwo = keyboard.nextInt();
     }
 }
