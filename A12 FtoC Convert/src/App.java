@@ -1,9 +1,11 @@
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    public static void main(String[] args){
+        Functions test = new Functions();
+        test.settemp(50, 10);
+        test.FtoC();
+        test.CtoF();
 
-            double a = (3/4);
-            int b = (98-32);
-        System.out.println(a);
+
     }
+    
 }
