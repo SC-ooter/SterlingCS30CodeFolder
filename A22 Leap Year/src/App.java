@@ -5,6 +5,7 @@
 // Date: (October 30th 2024)
 
 // Program Description:Uses a user input then checks if the value inputed is divisible by 4 and 400. It then outputs whether it is or is not a leap year.
+
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
