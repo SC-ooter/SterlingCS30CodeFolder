@@ -12,12 +12,12 @@ public class App {
         int Number2 = Secondnum.nextInt(); 
 
         // Stats.loop(Number1);
-        Stats.even(Number1);
-        Stats.odd(Number1);
-        Stats.even(Number2);
-        Stats.odd(Number2);
+        Stats.even(Number1,Number2);
+        Stats.odd(Number1,Number2);
+        // Stats.even(Number2);
+        // Stats.odd(Number2);
         Stats.total(Number1,Number2);
-        // Stats.loop(Number2);
+        // Stats.loop(Number1, Number2);
 
     }
 }
