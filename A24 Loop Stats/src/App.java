@@ -17,7 +17,7 @@ public class App {
         // Stats.even(Number2);
         // Stats.odd(Number2);
         Stats.total(Number1,Number2);
-        Stats.loop(Number1, Number2);
+        // Stats.loop(Number1, Number2);
 
     }
 }
