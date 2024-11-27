@@ -4,6 +4,7 @@ void setup() {
 }
 
 void draw() {
+    point(100,-500)
     circle(0,0,500);
 
 }
