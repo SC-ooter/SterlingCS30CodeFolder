@@ -3,7 +3,7 @@ Ball redball;
 void setup() {
     size(1280,720);
     background(200,200,200);
-    redball = new Ball();
+    redball = new Ball(200,200,50);
 }
 
 // happens constantly (screen refresh)
@@ -15,12 +15,17 @@ void draw() {
 
 class Ball {
     int x , y , r;
+    int dx;
+    int dy;
+
 
     //Constructor
-    Ball(){
-        x = 300;
-        y = 300;
-        r = 100;
+    Ball(int temp x, int temy, int tempr){
+        x = tempx;
+        y = tempy;
+        r = tempr;
+        dx = 10;
+        dy = 10;
     }
 
     void display() {
@@ -28,9 +33,14 @@ class Ball {
     }
 
     void move() {
-        if (y<=height - r) {
-            y++;
-            x++;
+        y = y + dy;
+        x = x + dx;
+
+        if (y>=height - r || y <= 0 + r) {
+            dy = dy*-1;
+        }
+        if (x>=width -r || x <= 0 + r) {
+            dx = dx*-1;
         }
     }
 }
