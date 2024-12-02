@@ -22,6 +22,7 @@ void mousePressed(){
     }
 }
 
+
 class Ball {
     int x, y, r;
     int dx, dy; //Speed or Velocity
