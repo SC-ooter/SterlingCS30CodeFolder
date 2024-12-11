@@ -10,7 +10,7 @@ class Walker {
         x = tempx;
         y = tempy;
         size = 25;
-        speed = 25;
+        speed = 5;
         npc = tempnpc; //if true, automate
         cr = (int)random(0,255);
         cg = (int)random(0,255);
@@ -32,16 +32,16 @@ class Walker {
         }
 
         //UP
-        if (dir == 0) {
+        if (dir == 0 && y >= 0) {
             y = y - speed;
         }
-        else if (dir == 1) {
+        else if (dir == 1 && x < 1500) {
             x = x+speed;
         }
-        else if (dir == 2) {
+        else if (dir == 2 && y < 700) {
             y = y + speed;
         }
-        else if (dir == 3) {
+        else if (dir == 3 && x > 0) {
             x = x - speed;
         }
         }
